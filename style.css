@@ -4,11 +4,7 @@ body {
 }
 
 
-@font-face
-{
-  font-family: neue-haas-grotesk-text, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+
 
 a {
 
@@ -17,7 +13,9 @@ a {
 }
 
 p {
-  font-family: NeueHaasRoman;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color:white;
   font-size: 20px;
   line-height: 1.4rem;
