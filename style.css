@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+
+}
+
+
+@font-face
+{
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+a {
+
+  text-decoration: none;
+
+}
+
+p {
+  font-family: NeueHaasRoman;
+  color:white;
+  font-size: 20px;
+  line-height: 1.4rem;
+}
+
+a :hover {
+  text-decoration: underline;
+}
