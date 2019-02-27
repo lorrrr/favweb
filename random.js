@@ -1,13 +1,41 @@
 
 	var list = [
-		"https://eyeondesign.aiga.org/",
-		"https://badbadbadbad.com/",
-		"http://blankposter.com/",
-	  "http://bong.international/",
-		"https://brutalistwebsites.com",
-		"http://eelslap.com",
-		"https://exitinternational.net",
-		"http://ignasimonreal.com"
+"http://www.another-lab.com/",
+"http://100-beste-plakate.de/archiv-plakate/",
+"http://www.artofthetitle.com/",
+"https://libraryofbabel.info/",
+"https://badbadbadbad.com/",
+"http://blankposter.com/",
+"http://bong.international/",
+"https://brutalistwebsites.com/",
+"https://www.cdgcdgcdg.com",
+"http://cococapitan.co.uk",
+"http://www.comp.jp/",
+"http://www.darrenoorloff.com",
+"https://culture.doberman.co",
+"http://eelslap.com",
+"https://exitinternational.net",
+"https://exitinternational.net",
+"http://www.vill.ee/eye/",
+"https://googlefonts.github.io/korean/",
+"https://www.guang-yu.net",
+"http://ignasimonreal.com",
+"http://www.instructables.com",
+"http://www.marianopascual.me/",
+"https://pitchfork.com/",
+"http://www.poptropica.com/",
+"http://www.sometimesredsometimesblue.com/",
+"http://killingofasacreddeer.movie/",
+"http://www.themovingposter.com",
+"https://theuselessweb.com",
+"https://ticketsplz.tumblr.com/",
+"https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/",
+"https://whitney.org",
+"https://www.wired.com/",
+"https://www.workweek.info",
+"http://studioyuan.com",
+"https://www.zak.group/projects"
+
 	];
 
 	var sites = null;
@@ -25,7 +53,7 @@
 
 
 		var url = selectWebsite();
-	
+
 		openSite(url);
 
   button.style.color=red;
