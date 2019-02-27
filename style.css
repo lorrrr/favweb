@@ -10,6 +10,7 @@ a {
 }
 
 h1 {
+
   font-family: neue-haas-grotesk-text, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -116,7 +117,7 @@ a.link :hover {
 }
 
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 768px)
 {
   #names {
     visibility:hidden;
