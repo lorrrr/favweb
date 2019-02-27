@@ -125,6 +125,7 @@ a.link :hover {
 {
   #names {
     visibility:hidden;
+    width:0%!important;
 }
  #websites {
 
@@ -136,7 +137,9 @@ a.link :hover {
  visibility:hidden;
 width:10%!important;
 }
-
+#links{
+  width:50%!important;
+}
 
 #list {
   margin-left: 1%;
