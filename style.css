@@ -33,7 +33,7 @@ p {
 
 
 h2 {
-  position:relative;
+  position:absolute;
   font-family: neue-haas-grotesk-text, sans-serif;
   font-style: normal;
   font-weight: 400;
