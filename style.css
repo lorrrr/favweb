@@ -3,7 +3,7 @@ body {
   padding: 3%;
 }
 @viewport {
-    width: extend-to-zoom 980px;
+    width: extend-to-zoom 1000px;
     min-zoom: 0.25;
     max-zoom: 3;
 }
@@ -138,7 +138,7 @@ a.link :hover {
 width:10%!important;
 }
 #links{
-  width:70%!important;
+  width:60%!important;
 }
 
 #list {
