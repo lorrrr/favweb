@@ -129,7 +129,20 @@ a.link :hover {
  #websites {
 
   visibility:hidden;
+
+}
+#teacher {
+
+ visibility:hidden;
+width:10%!important;
 }
 
+
+#list {
+  margin-left: 1%;
+  margin-right: 10%;
+  margin-top:5%;
+
+}
 
 }
