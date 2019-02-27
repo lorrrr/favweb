@@ -5,7 +5,7 @@ body {
 @viewport {
     width: extend-to-zoom 1000px;
     min-zoom: 0.25;
-    max-zoom: 3;
+    max-zoom: 2;
 }
 a {
 
