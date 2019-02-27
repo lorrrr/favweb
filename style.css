@@ -49,8 +49,8 @@ h2:hover{
 }
 
 .circle {
-  line-height: 0;
-  top:10px;
+  line-height: 1rem;
+
 }
 p.circle {
 
@@ -61,7 +61,7 @@ p.circle {
 
 }
 
-p.circle:hover+h3{
+p.circle:hover+span{
   opacity:1;
 
 }
@@ -71,6 +71,11 @@ p.circle:hover{
   cursor: pointer;
 }
 
+.small{
+  opacity: 0;
+  position: absolute;
+  z-index: -3;
+}
 
 .blinking{
     animation:blinkingText 1.2s infinite;
@@ -98,16 +103,16 @@ p.circle:hover{
 
 h3 {
   position:relative;
-  left:0;
-  bottom:5px;
+  left:10px;
+  bottom:42px;
   z-index: -2;
   font-family: neue-haas-grotesk-text, sans-serif;
   font-style: normal;
   font-weight: 400;
   color:white;
-  font-size: 10px;
-  opacity:0;
-  line-height:0px;
+  font-size: 12px;
+  opacity:1;
+  line-height:15px;
 }
 
 
@@ -122,7 +127,7 @@ a.link :hover {
 }
 
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1000px)
 {
   #names {
     visibility:hidden;
