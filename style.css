@@ -2,7 +2,11 @@ body {
   background-color: black;
   padding: 3%;
 }
-
+@viewport {
+    width: extend-to-zoom 980px;
+    min-zoom: 0.25;
+    max-zoom: 5;
+}
 a {
 
   text-decoration: none;
