@@ -1,7 +1,7 @@
 body {
   background-color: black;
 
-  padding: 1%;
+  padding: 3%;
 }
 
 
@@ -18,7 +18,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   color:white;
-  font-size: 20px;
+  font-size: 40px;
 
 }
 
@@ -33,14 +33,18 @@ p {
 
 
 h2 {
+  position:absolute;
   font-family: neue-haas-grotesk-text, sans-serif;
   font-style: normal;
   font-weight: 400;
   color:white;
-  font-size: 20px;
-  line-height: 1rem;
+  font-size: 40px;
+  line-height: 2.8rem;
 }
 
+h2:hover{
+  cursor:pointer;
+}
 
 .circle {
   line-height: 0;
@@ -97,8 +101,11 @@ a.link :hover {
 {
   #names {
     visibility:hidden;
-
 }
-#websites {
+ #websites {
+
   visibility:hidden;
+}
+
+
 }
