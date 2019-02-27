@@ -1,11 +1,7 @@
 body {
   background-color: black;
-
   padding: 3%;
 }
-
-
-
 
 a {
 
@@ -17,9 +13,9 @@ h1 {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color:white;
   font-size: 40px;
-
+  line-height: 2.8rem;
+  color:white;
 }
 
 p {
@@ -37,7 +33,7 @@ h2 {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color:white;
+
   font-size: 40px;
   line-height: 2.8rem;
 }
@@ -67,6 +63,29 @@ p.circle:hover+h3{
 p.circle:hover{
   opacity:0;
   cursor: pointer;
+}
+
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{ color: #000;  }
+    85%{ color: #fff; }
+    100%{ color: #fff; }
+}
+
+.changing{
+    animation:changingText 40.5s infinite;
+}
+@keyframes changingText{
+  0% { color: hsl(0,100%,50%); }
+15% { color: hsl(60,100%,40%); }
+30% { color: hsl(120,100%,40%); }
+45% { color: hsl(180,100%,40%); }
+60% { color: hsl(240,100%,50%); }
+75% { color: hsl(300,100%,50%); }
+100% { color: hsl(0,100%,50%); }
 }
 
 

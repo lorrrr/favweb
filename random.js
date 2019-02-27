@@ -26,11 +26,10 @@
 "http://www.sometimesredsometimesblue.com/",
 "http://killingofasacreddeer.movie/",
 "http://www.themovingposter.com",
-"https://theuselessweb.com",
 "https://ticketsplz.tumblr.com/",
 "https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/",
 "https://www.wired.com/",
-"https://www.workweek.info",
+"https://workweek.info",
 "http://studioyuan.com",
 "https://www.zak.group/projects"
 
