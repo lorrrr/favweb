@@ -149,7 +149,10 @@ width:10%!important;
 
 }
 h1{
-  font-size:35px; 
+  font-size:38px;
+}
+#menu {
+  left:3% !important;
 }
 
 }
